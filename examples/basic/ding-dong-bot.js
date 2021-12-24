@@ -52,8 +52,8 @@ function onLogout (user) {
 async function onMessage (msg) {
   log.info('StarterBot', msg.toString())
 
-  if (msg.text() === 'ding') {
-    await msg.say('dong')
+  if (msg.text().includes('发电话')) {
+    await msg.say('15010065036')
   }
 }
 

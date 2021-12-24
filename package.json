@@ -54,5 +54,11 @@
     "scripts": {
       "pre-push": "npx git-scripts-pre-push"
     }
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
   }
 }
